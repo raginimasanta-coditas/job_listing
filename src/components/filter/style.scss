@@ -1,0 +1,43 @@
+.filter-section {
+  width: 80%;
+  margin: 20px auto;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .selected-language {
+    .filter-options {
+      margin: 0 10px;
+    }
+    .language-option {
+      padding: 0 10px;
+      color: hsl(180, 40%, 49%);
+      background-color: hsl(180, 44%, 74%);
+      font-weight: 700;
+      padding: 6px 8px;
+      border-radius: 4px 0 0 4px;
+    }
+    .remove-icon {
+      background-color: hsl(180, 40%, 49%);
+      padding: 6px 8px;
+      border-radius: 0 4px 4px 0;
+      &:hover {
+        background-color: black;
+      }
+      img {
+        height: 10px;
+      }
+    }
+  }
+  .clear-button {
+    font-weight: 700;
+    padding: 0 10px;
+    color: hsl(180, 40%, 49%);
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: hsl(180, 40%, 49%);
+      text-decoration-thickness: 3px;
+    }
+  }
+}
